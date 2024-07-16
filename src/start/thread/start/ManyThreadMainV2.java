@@ -1,6 +1,6 @@
 package start.thread.start;
 
-import static start.thread.logger.MyLogger.log;
+import static start.thread.util.MyLogger.log;
 
 import java.util.stream.IntStream;
 

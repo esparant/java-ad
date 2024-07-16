@@ -1,4 +1,4 @@
-package start.thread.logger;
+package start.thread.util;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;

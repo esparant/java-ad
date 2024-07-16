@@ -1,6 +1,6 @@
 package start.thread.start;
 
-import static start.thread.logger.MyLogger.log;
+import static start.thread.util.MyLogger.log;
 
 public class ManyThreadMainV1 {
     public static void main(String[] args) {

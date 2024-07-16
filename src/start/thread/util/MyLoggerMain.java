@@ -1,6 +1,6 @@
-package start.thread.logger;
+package start.thread.util;
 
-import static start.thread.logger.MyLogger.*;
+import static start.thread.util.MyLogger.*;
 
 public class MyLoggerMain {
     public static void main(String[] args) {

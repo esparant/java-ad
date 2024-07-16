@@ -1,6 +1,6 @@
 package start.thread.start.test;
 
-import static start.thread.logger.MyLogger.log;
+import static start.thread.util.MyLogger.log;
 
 public class StartTest2Main {
     public static void main(String[] args) {
