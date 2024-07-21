@@ -30,5 +30,5 @@ public class JoinMainV2 {
         log(Thread.currentThread().getName() + " result: "  + threadResult);
         result.addAndGet(threadResult);
         log("작업끝");
-    }=
+    }
 }
