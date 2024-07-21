@@ -8,7 +8,10 @@ public class BankMain {
 
 //        BankAccountV1 account = new BankAccountV1(100_000);
 //        BankAccountV2 account = new BankAccountV2(100_000);
-        BankAccountV3 account = new BankAccountV3(100_000);
+//        BankAccountV3 account = new BankAccountV3(100_000);
+//        BankAccountV4 account = new BankAccountV4(100_000);
+//        BankAccountV5 account = new BankAccountV5(100_000);
+        BankAccountV6 account = new BankAccountV6(100_000);
 
         Thread btA = new Thread(new WithdrawTask(account, 60000), "bankThread-A");
         Thread btB = new Thread(new WithdrawTask(account, 60000), "bankThread-B");
@@ -17,7 +20,6 @@ public class BankMain {
         btB.start();
 
         sleep(500);
-
         btA.join();
         btB.join();
 
