@@ -13,7 +13,10 @@ public class ConsumerTask implements Runnable {
     @Override
     public void run() {
         log("[소비 시도]     ? <- " + queue);
-        String data = queue.take();
-        log("[소비 완료]     " + data + " <- " + "[]");
+        try {
+            log("[소비 완료]     " + queue.take() + " <- " + queue);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
     }
 }

@@ -19,7 +19,7 @@ public class BankAccountV4 implements BankAccount {
     public boolean withdraw(int amount) {
         log("거래 시작: " + getClass().getSimpleName());
 
-        lock.lock(); // rock 걸기
+        lock.lock(); // lock 걸기
 
         try {
             log("[검증 시작] 출금액: " + amount + ", 잔고: " + balance);
